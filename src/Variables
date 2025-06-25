@@ -1,0 +1,22 @@
+Declare variable x: int x;
+Initialize variable x: x=10;
+
+Code block
+    - blocks of code inside curly brackets such as class, method, loops, if, try/catch, switch
+
+Local variables
+    -Exist within curly brackets of method and cannot be seen by other class.
+    //Variable scope is region of code within which a variable is accessible.
+    {}define the scope.
+    //method parameters= variables/arguments that exist only in the method declared
+        public int multiply (int a, int b){ return a* b }; int a and int b = parameters
+
+Instance variables
+    -Variables declared outside of methods and exist as members of a class.
+    -Visible to other members (variables and methods) within same class and other classes
+    depending on access modifiers such as public, private and protected.
+    //class Person { String name; int age; }
+Static variables
+    -Variables visible to other members but unlike instance variables, not each instance
+    of class has its own copy of static variable.
+    -shared by all instances of a class.

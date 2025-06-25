@@ -1,0 +1,48 @@
+Arithmetic Operators
+
+    + - * / %(modulus)
+    int mod = 10 % 3; // result is 1
+
+    -Short-hand Arithmetic Operators
+    += -= *= /= %=
+    a += 10 means a = a + 10 (right side will execute first so now a becomes 11 when a=1);
+
+
+Relational Operators
+-result evaluates to boolean value (true/false)
+-always used with if statements.
+
+    < <= > >= == != (six)
+    instead of using = , must use ==.
+    System.out.println(a % b == 0 );
+    if (val1 == val2) {...
+
+
+Logical Operators (Conditional operators)
+-result evaluates to boolean.
+
+    & && | || ^(one can be true but not both) !
+
+    *Short circuit AND / OR
+    Second boolean evaluated only when necessary. Result comes out faster & less memory usage.
+    only when left is true, will evaluate right side.
+    if (a && b) {System.out.println("This will print")};
+
+Ternary Operators (Conditional operators)
+-uses three operands
+-evaluated as 'if aCondition ? valueOne : valueTwo
+//if a condition is true, then valueOne otherwise valueTwo
+    class Main {
+      public static void main(String[] args){
+        int x = 10;
+        int y = 20;
+        String result = x > y ? "x is greater than y" : "x is less than y";
+        // Output: "x is less than y"
+
+
+Assignment Operators
+-assigns values to variables
+= single equals sign
+
+
+

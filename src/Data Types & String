@@ -1,0 +1,33 @@
+Primitive data types:
+
+1) byte 8bits
+2) short 16 bits
+3) int 32 bits
+4) long 64 bits (l)
+5) float 32 bits decimal (f)
+6) double 64 bits decimal
+7) boolean true/false
+8) char single letter character
+
+Non-primitive data types:
+    Object type
+    1) String ("words/characters") immutable (cannot change but can create new by changing)
+        *String Object = new String ("hello world"); //creating string
+        *System.out.println("String one" + "String two");
+        or (String str3=StringOne.concat(StringTwo));
+        //concatenate/combine into one string
+        *int variable 1 = "hello".length(//nothing goes in//)
+        //number of characters = 5. ! = one character.
+        *boolean equals = "hello".equals("hello"); .equalsIgnoreCase() // true
+        *int search="hello".indexof("o");
+        //at what position is "o" in the string. from left is 0,1...;
+        *String subStr = str1.substring(8,12);
+        //words from 8th place to 11th place. End number -1. blank=one space.
+        // String str1 = "Hello String 1!"; ring
+        *char letterAt = str1.charAt(8); //r
+        *System.out.println(str1.toUpperCase()); // printed all upper case.
+
+
+
+
+
