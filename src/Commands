@@ -1,1 +1,4 @@
 "\t" = space to the right. // "P\t\tQ"; will result in P  Q (double space)
+
+System.out.println("") // Print result in different line
+System.out.print("")// Print result in same line as previous result

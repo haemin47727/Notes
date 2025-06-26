@@ -1,0 +1,21 @@
+default value of an int primitive is zero
+For loop
+-finite iteration
+-for (initalize counter; boolean condition; incrementer/decrementer (iteration) )
+for(int i =100; i>=0; i-=25){Sout("");} as long as middle boolean (i>=0) condition is true
+it keeps looping.
+
+While loop
+-while (boolean) //while boolean condition is true, then loop will run
+non-finite iteration
+int count =0;
+while(count < 10000){Sout(""+count); count++; }
+
+do while loop (execute at least once)
+
+break = break out of the loop and go to whatever executable code is next
+continue = go back to main loop such as while loop
+
+arrays are random access (data store) in [ ] index is from 0 from left. index -1
+for each loop
+for each int in...sout

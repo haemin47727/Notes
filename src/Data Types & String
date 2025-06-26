@@ -12,6 +12,7 @@ Primitive data types:
 Non-primitive data types:
     Object type
     1) String ("words/characters") immutable (cannot change but can create new by changing)
+        *String str = "hello!"; // declare & initialize string
         *String Object = new String ("hello world"); //creating string
         *System.out.println("String one" + "String two");
         or (String str3=StringOne.concat(StringTwo));
