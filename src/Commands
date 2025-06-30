@@ -1,4 +1,6 @@
-"\t" = space to the right. // "P\t\tQ"; will result in P  Q (double space)
+"\t" = two space to the right. // "P\t\tQ"; will result in P  Q (double space)
 
-System.out.println("") // Print result in different line
-System.out.print("")// Print result in same line as previous result
+System.out.println("") // Print result and next result will be different line
+System.out.print("")// Print result and next result will be same line
+
+\n next word prints in new line: System.out.print("Each\nWord"); will print Word next line.
