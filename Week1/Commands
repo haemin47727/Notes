@@ -8,4 +8,8 @@ System.out.print("")// Print result and next result will be same line
 System.in.read() : only reads value of ONE byte (8 bits : 0000 0000) at a time.
 When user presses enter it's also another value. System.in.read() does ascii table value
 and it's only for English. So value of byte is not always ascii value since it could be different
-in another language.
+in another language / UTF - 8
+
+char alphabet = word.charAt(i);
+"aeiou".indexOf(alphabet) != -1
+// i = index here
