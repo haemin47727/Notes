@@ -1,0 +1,12 @@
+while loop
+-iterate (repeat) code as long as condition is true.
+while(boolean condition){
+-boolean is checked before each iteration of the loop.
+
+do while loop
+-code is always executed at least once as the condition is checked at the bottom not top.
+do{
+}while (boolean condition);
+
+boolean condition shouldnt be always true as the code will run forever.
+

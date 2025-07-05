@@ -1,0 +1,11 @@
+Array                                       ArrayList Functions
+int[]nums=new int[5];                      ArrayList<Integer>nums= new ArrayList<>();
+X   fixed size             //boolean//     .add("House");         //add element end of list
+X                          //void//        .add(1, "House"); //add House at index 1
+X must manually shift      //void//        .clear(); // remove all elements from list
+                           //Object//      .clone(); // shallow copy of this ArrayList instance
+nums[0]                    //E//           .get(1); //element at specified index
+X must loop manually        //int//        .indexOf(Alphabet)// returns index of first occurence of the element in()
+X                          //boolean//     .isEmpty()//returns true if list contain no element
+X                          //E//           .remove(1) / .remove(Integer.valueOf(10)) //remove element at index()
+.length                     //int//        .size() //returns number of elements in list

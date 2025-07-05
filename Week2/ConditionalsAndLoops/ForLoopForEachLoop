@@ -1,0 +1,26 @@
+for loop
+-iterate over range of values to repeat a sequence of code.
+for (initialization; condition ; iteration){
+statement;
+}
+-initialization sets starting value of iteration loop.
+-boolean condition is tested in the beginning and each time the loop completes a cycle.
+    will exit loop if false.
+-iteration determines how the control variable in the initialization is change with each
+iteration.
+-each (of three) portion is optional so leaving all out will be infinite loop.
+
+for each loop
+for(type iteration-variable : collection){
+String[] collection = {"This", "is" , "a" , "collection"};
+for(String item: collection){
+    System.out.println("The item is :" +item);
+
+All loops can be nested within any other type of loop as many times as possible.
+
+for(int[] outer: nums){
+    for(int val:outer){
+    System.out.print(val);
+  }
+  System.out.println();
+}

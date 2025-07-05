@@ -1,0 +1,13 @@
+ArrayList
+-resizable array that implements List interface with List operations.
+-can grow and shrink.
+-no need to declare size
+
+import java.util.ArrayList; //ArrayList not automatically added to new file so must grab class.
+ArrayList<type> list //name//= new ArrayList<>(); (or ArrayList())
+list.add("Hello");
+list.add("World");
+for(String s : list){
+System.out.print(s);
+
+

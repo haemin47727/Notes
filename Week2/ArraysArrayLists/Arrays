@@ -1,0 +1,48 @@
+Array
+-best used with for loop
+type[] array_name = new type[size];
+
+Initializing Array:
+int[] scores = new int[10];
+int[] scores = {1, 2, 3, 4, 5};
+int[]scores = new int [] {1, 2, 3, 4, 5};
+
+Getting value at specified index:
+scores[1]; // scores value at the index of 1 is 2
+int x = scores[1];
+index always starts from 0. if it's -1 it's false.
+
+for(int i = 0; i < scores.length; i++_){
+//setting counter variable "i" as an index to access element
+System.out.println(scores[i]);}
+
+Multi-dimensional array
+-best used with for loop
+-nesting arrays
+-each index in array contains another array.
+int[][] scoresMulti= new int[5][3]; // every index of 5 contains an array of length 3.
+// think length 5 as height and 3 as width.
+int[][] tables = { {67,45}, {987,234} }; //can be irregular array like {67,45} , {999,95,45}.
+To access value 987 here, tables[1][0];
+
+Example 1:
+
+int[][] twoD= new int[4][7]'
+for(int i=0; i < twoD.length; i++){
+    for(int j= 0; j < twoD[i].length; j++){
+    twoD[i][j] = //whatever you set ;
+    System.out.print(two[i][j] + " \t "); //align at tab stops
+    }
+   System.out.println();
+}
+
+Example 2: reversing array
+
+int[] nums = {45, 87, 62, 99, 1, 42, 12};
+int temp;
+    for(int i = 0; i < nums.length / 2; i++){
+    temp = nums[nums.length-1-i]; //temp is used to hold starting from biggest number
+    nums[nums.length-1-i] = nums[i]; //biggest number becomes smallest number
+    nums[i] = temp; //smallest number becomes temp which is the biggest number
+for(int a : nums){
+System.out.print(a)}

@@ -1,0 +1,21 @@
+if(boolean condition) {
+//does this part ONLY if the boolean condition is true.
+
+Nesting if statement
+-putting if statement inside if.
+if(i > 0){
+    if(i < 20){
+        System.out.println("...");
+
+else if statement
+int i = 0 {
+    //you can put System.out.println here
+    } else if(i < 0){
+    //can be System.out.println
+    } else {
+    //System.out.println here;
+    }
+-can have if inside else if or if statement.
+-ladder is sequential so only run if previous statement is FALSE.
+
+-must use == instead of =

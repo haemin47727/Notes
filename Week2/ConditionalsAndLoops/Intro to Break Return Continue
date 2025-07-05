@@ -1,0 +1,21 @@
+return statement
+-used to exit a method.
+-if method is type void, write return; with nothing else
+-if method is any type other than void, must return a variable of that type.
+
+break statement
+-break out of loop
+-break with label :
+one: {
+    two: {
+        if(i==0){
+            break one; //breaks to label one
+        }
+     System.out.println("label two"); //if i is not one.
+    }
+System.out.println("label one");
+}
+-break without label : breaks out of loop and continue to execute directly outside of it.
+
+continue statement
+-stop iteration of loop prematurely but will continue to next iteration without leaving closest loop.

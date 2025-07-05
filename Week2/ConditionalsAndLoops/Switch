@@ -1,0 +1,15 @@
+switch statement
+-decision-making statement for finite number of outcomes such as hours or floors.
+switch(your_variable){
+    case 1: //each case value is compared with switch value.
+    //code to be executed such as System.out.println("");
+    break;    //exits the switch and continue with rest of program with case identification.
+    case 2:
+    //code;
+    break;
+    default:
+    //code executed if no case value is matched
+    break;
+
+-switch statement is designed to have "fall through" behavior
+where without a break statement, once case is matched, each subsequent case is triggered too.

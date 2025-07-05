@@ -1,0 +1,10 @@
+Scanner
+-Object type
+
+import java.util.Scanner;
+
+Scanner scanner = new Scanner(System.in);
+System.out.println("");
+int input = scanner.nextInt(); // returns one integer or one full number everytime .nextInt is called.
+
+.nextLine() // reads entire line of input including spaces until end of line when enter is pressed
