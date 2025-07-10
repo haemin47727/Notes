@@ -13,3 +13,5 @@ in another language / UTF - 8
 char alphabet = word.charAt(i);
 "aeiou".indexOf(alphabet) != -1
 // i = index here
+
+//test//
