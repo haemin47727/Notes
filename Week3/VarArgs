@@ -1,0 +1,15 @@
+VarArgs
+-variable-arity
+-main method which can take dynamic number of arguments
+-can take in any number of specified data type as parameters
+-must come last in parameter list
+ex) Varargs varargs = new Varargs();
+    varargs.varargsMethod("Hello, "world");
+
+    class Varargs {
+    public Varargs(){}
+    public void varargsMethod(String...v){
+        for(String word : v){
+            System.out.println(word);}
+            // Hello
+            // world

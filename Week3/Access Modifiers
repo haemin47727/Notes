@@ -1,0 +1,15 @@
+Access Modifiers
+- determine how classes and methods can interact with one another
+-defined at the class and member level
+
+Class level access modifier
+- public : class is visible to all classes in any location
+- default : only visible within its own package
+
+Member level access modifier
+- determine what access other classes have with instance variables or methods
+- public : any class in any location can access that member
+- private : only other members of same class can access that member
+- protected : only members within same package and subclass in diff pack. can access that member
+- default : members of classes within same package have access to that member
+

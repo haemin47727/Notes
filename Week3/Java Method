@@ -1,0 +1,26 @@
+Methods
+- members of classes
+- manipulate data defined by class
+-[access modifier][static/non-static][return-type][method-name][method parameter containing arguments/value]
+-ex ) public class MethodExample{
+            public static void main(String[] args){}
+
+Controller methods
+- use logic built into (and call) service methods and getters and setters
+-main() method
+
+Service methods
+-most of logic that happens on objects and data are kept here
+
+Getter & Setter methods
+- get and set data on an object
+
+Method parameters
+-a way data can be passed to a method
+-variable added to method signature. (argument is value of specific parameter)
+-copy of value is made when a primitive value is sent to method
+ex) public static void addNums(int numA, int numB){} //int numA is one parameter
+//two int parameters are passed as arguments when this method is called.
+
+Method Signature
+-method name and parameter type

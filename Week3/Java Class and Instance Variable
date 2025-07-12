@@ -1,0 +1,35 @@
+Java class
+- blueprint that defines object's form such as data and the code that acts on this class' object
+-all Java code lies within a class except for import statements.
+-referred to as Plain Old Java Objects (POJOs) in their simplest form
+-define two major part of object : data and methods.
+-class name's first letter is always capitalized
+-class is always in a file with same exact name as class
+
+Objects
+-instance of a class
+-has own copy of instance variables
+
+Data members
+-instance variables of different types
+-data is used to describe objects
+-instance variable is bound to instance (object) of class
+-represent state of object and define its properties
+-declared within a class not within method, constructor or block.
+-initialized in class or constructor of class.
+
+Methods
+-describe actions performed on or by the object
+
+Example : Class
+public class Vehicle{
+//contain instance variable such as int passengers;
+//contain method such as public void printPassengers() { System.out.println();}
+
+Example : Obj
+in the main method create object of type/class Vehicle
+class Main{
+    public static void main(String[] args){
+    Vehicle myVehicle = new Vehicle();
+    myVehicle.passengers =5;
+    myVehicle.printPassengers();}

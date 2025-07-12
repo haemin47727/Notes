@@ -1,0 +1,31 @@
+Constructor
+-method used to initialize objects
+-called when object is created
+-initialize instance variables of object and perform operation
+-do NOT have return type
+-used to set initial values to an object when object is created
+
+Default Constructors
+-Java automatically provides default if a class doesn't define any constructor
+-parameterless (takes no argument)
+-initialize object's instance variable to default value
+
+ex) class Constructor{
+        int x;
+        Constructor(int intputParam){
+            //x = 42 with empty parameter//
+             x = inputParam;}
+            }
+
+How to Call
+class Creator{
+    public static void main(String []args){
+        Constructor objectOne = new Constructor();
+        System.out.println(objectOne.x);
+        } }
+        //or//
+        Constructor objectTwo = new Constructor(10);
+        System.out.println(objectTwo.x);
+
+
+

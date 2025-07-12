@@ -1,0 +1,10 @@
+Overloading
+-one way of implementing polymorphism
+-methods and constructors can be overloaded
+-two or more methods with same name created but different in parameter type or/and number of par
+-different return type is not enough to implement overloading
+
+ex) static int addition(int a, int b){}
+    static int addition(double a, double b, double c){}
+
+ex) System.out.println()

@@ -1,0 +1,7 @@
+Object Composition
+- it's like having an instance variable referencing another object
+- one object having reference to another object
+-similar to aggregation
+
+ex)
+refer to composition getter setter to string example

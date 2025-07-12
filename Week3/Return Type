@@ -1,0 +1,5 @@
+Return type
+-comes right before method name
+-once data is returned, method stops executing and goes back to calling method
+-void = nothing returned
+ex) public static int returnSum(int a, int b){} // return type of int

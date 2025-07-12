@@ -1,0 +1,22 @@
+Passed by Reference
+-object is passed to another method as a argument not as a copy unlike primitive data type
+
+Object
+-object data type such as String.
+-dont have simple binary value
+-sometimes contain own primitive variables and reserve and hold memory on the heap
+-when it's passed to second method, the second method receives REFERENCE in memory to object
+-any change in object in second method will affect object in calling method.
+-store data, act on that data, interact with other objects
+- class is object's data type when object is created from a class
+- has own copy of each of instance variables in the class
+
+Creating Object
+ex) Person somePerson = new Person(); //somePerson is reference to object new Person()
+
+Adding Instance Variables
+ex)somePerson.age = 36;
+   somePerson.height = 72.2;
+   somePerson.name = "Jose";
+
+
