@@ -1,0 +1,31 @@
+Encapsulation
+- In a single class, bundling data ( fields or variables) and methods that use these data
+- controlled access provided
+
+example )
+public class Person {
+    private String name;
+    private int age;
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+    public void setAge(int age){
+    //data validation
+        if (age >= 0 && <= 120){
+            this.age = age;
+        } else
+            System.out.println("You entered invalid human age");
+    }
+}
+
+

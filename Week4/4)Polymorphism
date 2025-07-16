@@ -1,0 +1,17 @@
+Polymorphism
+- methods and classes that have many forms
+1) Overloading methods
+-having same method name but different method parameter or number (return type doesn't matter)
+-System.out.println()
+
+2) Overriding Body/Behavior or Parent Methods
+@Override
+
+3) Implementing Interfaces
+- define own body/functionality for methods implemented from interface
+- class that implements an interface becomes a type of the interface
+- this interface type can be used as instance variable in other class
+
+4) Implementing Abstract Classes
+- called subtype polymorphism or inheritance polymorphism
+- objects of subclass can be treated as objects of superclass

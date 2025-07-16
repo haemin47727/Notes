@@ -5,6 +5,8 @@ Java class
 -define two major part of object : data and methods.
 -class name's first letter is always capitalized
 -class is always in a file with same exact name as class
+- no return type
+- static classes are only allowed as nested classes
 
 Objects
 -instance of a class

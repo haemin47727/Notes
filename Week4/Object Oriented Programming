@@ -1,0 +1,17 @@
+OOP
+- one of programming paradigms
+- other programming paradigms include functional, procedural, imperative and declarative programming.
+- allows to model data and applications that act on that data
+
+Components of OOP
+1) Abstraction
+- idea of showing only the essential features of the system to user
+2) Encapsulation
+- grouping similar data and methods together inside a class
+3) Inheritance
+- child class inherits the variables and methods of parent class
+4) Polymorphism
+- Overloading , Overriding, Implementing Interface, Implementing Abstract Classes
+-method overloading : having same method name but different method parameter or number (return type doesnt matter)
+- ex  ) System.println();
+

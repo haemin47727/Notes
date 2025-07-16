@@ -1,0 +1,30 @@
+Inheritance
+- extends keyword even if parent class is not abstract but a normal class
+- subclass cannot access private members in parent class
+- subclass can only extend one other class directly
+- subclass can inherit fields and methods from multiple superclasses (public and protected members)
+- parent class must exists before child class
+- child class constructor will call parent constructor first using super()
+- in default child constructor, super(); is automatically present without writing it
+- @Override for method of same name and parameter found in parent class
+- this keyword is only for referencing to field and method in current class
+- subclass constructor must call super constructor even with different method parameter.
+
+example)
+
+class Superclass {
+    public void printMethod(){
+        System.out.println("Printed in superclass");
+    }
+}
+
+class Subclass extends Superclass {
+    @Override
+    public void printMethod(){
+        System.out.println("Printed in Subclass");
+    }
+    public void someMethod(){
+    super.printMethod();
+    this.printMethod();
+    }
+}

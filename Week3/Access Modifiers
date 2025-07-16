@@ -13,3 +13,5 @@ Member level access modifier
 - protected : only members within same package and subclass in diff pack. can access that member
 - default : members of classes within same package have access to that member
 
+Empty access modifier
+-means default

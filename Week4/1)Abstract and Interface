@@ -1,0 +1,112 @@
+Java Abstraction
+- abstraction and interface
+- method signature must be the same when child class is getting abstract method from parent.
+
+1) Abstract Class
+- create blueprint for objects
+- focuses what object does rather than how to achieve its functionality
+- can have both abstract and non-abstract methods(with method body)
+- can be any access modifier
+- can have constructor and instance variable
+- cannot be instantiated by using new keyword to create a new instance/object
+    but if it has only concrete methods and does not implement any abstract method from superclass then
+    can be instantiated
+- abstract methods eventually need to be implemented
+- also a class that cannot implement all methods in interface
+- subclass extends an abstract class
+- subclass must implement abstract methods or else declare itself abstract
+- subclass can be abstract and have its own abstract method but the next concrete subclass must
+    implement both abstract methods into concrete methods
+>>access modifier - abstract class - class-name{
+    abstract method;
+    concrete method;
+    fields; (initialized / not initialized both work)
+    }
+
+example)
+
+ abstract class Shape{
+    protected String color = "blue";  //fields
+    protected boolean filled;
+        abstract void draw(); //can have method parameter.
+        public Shape(String color, boolean filled){  //concrete method
+        this.color = color;
+        this.filled = filled;
+        }
+    }
+
+//concrete subclass
+class Circle extends Shape{
+    @Override
+    void draw() {
+        System.out.println("");
+    }
+}
+
+2) Interface (not class)
+- contract for classes
+- default or public class for access modifier
+- only default and abstract methods that contain access modifier, return type , method signature
+-implements keyword
+- abstract methods must be implemented by class that implements it
+(must make abstract methods concrete methods) (public boolean name();)
+-default method is optional to be implemented (public default name(){})
+-cannot contain constructor and instance variable
+- class can implement multiple interfaces directly
+
+example)
+
+public interface Flyable {
+    public void fly();
+}
+
+public class Bird implements Flyable {
+    @Override
+    public void fly() {
+        System.out.println("Bird is flying");
+    }
+}
+ Dependency
+- can be used as an instance variable ( known as dependency )
+- class that implements the interface can now be used to satisfy that instance variable
+
+example)
+public interface MotorizedVehicle{
+    public boolean start();
+    public void stop();
+    public void accelerate(int mph);
+    public void decelerate(int mph);
+}
+
+class Plane //or Motorcycle// implements MotorizedVehicle{
+    @Override
+    public boolean start(){ //own body//
+    }
+    ...
+}
+
+class Poly {
+    MotorizedVehicle vehicle;
+    public Poly(MotorizedVehicle vehicle){
+        this.vehicle = vehicle;
+    }
+    public void setMotorizedVehicle(MotorizedVehicle vehicle){
+        this.vehicle = vehicle;
+    }
+    public void testVehicle(){
+        vehicle.start();
+        vehicle.accelerate();
+        vehicle.decelerate();
+        vehicle.stop();
+    }
+}
+
+class Main{
+    public static void main(String[] args){
+        Plane plane = new Plane();
+        Motorcycle moto = new Motorcycle();
+        Poly morpho = new Poly(plane);
+        morpho.testVehicle;
+        morpho.setMotorizedVehicle(moto);
+    }
+}

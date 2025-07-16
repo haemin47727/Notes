@@ -1,0 +1,5 @@
+Final keyword
+- declare a variable that should not be changed
+class FinalExample{
+    public final double PI = 3.1415; // name always capitalized and underscore used for space, not for methods
+- cannot override final method
