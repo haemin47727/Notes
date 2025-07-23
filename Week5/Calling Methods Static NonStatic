@@ -1,0 +1,30 @@
+INSIDE SAME CLASS
+
+Inside Static calling Non-Static
+: Class obj = new Class();
+  obj.nonStaticMethod();
+
+Static calling static
+: nameOfMethod();
+
+Non-static calling static
+: nameOfMethod();
+
+Non-Static calling non-static
+: nameOfNonStatic();
+
+METHODS BETWEEN DIFFERENT CLASSES
+
+static calling non-static
+: Class obj = new Class();
+    obj.nonStaticMethod();
+
+static calling statc
+: ClassName.nameOfMethod();
+
+non-static calling static
+: ClassName.nameOfMethod();
+
+non-static calling non-static
+: Class obj = new Class();
+    obj.nonStaticMethod();

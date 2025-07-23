@@ -1,0 +1,29 @@
+NonStatic
+- variable or method belongs to object of class
+- need object to call non-static methods
+- any info that will change from obj to obj
+
+Static
+- variable or method belong to class
+- does not change from object to object
+
+Static methods
+- static methods act on static data
+- available to all instance of its class
+- ClassName.staticMethodName();
+- don't have access to non-static instance variables
+- no "this" reference as this refers to this object
+
+
+Static variable
+- static variable is accessed without creating object of the class
+- all objects of the class share a reference to the single static variable
+- ClassName.staticVariableName();
+-static int numOfCars;
+
+Static Block
+- executed when class is first loaded
+- executes before constructor
+- static {}
+- apply to all instances of the class
+

@@ -1,0 +1,17 @@
+Packages
+- group classes together by shared functionality
+- access control
+- to create : package package1.labs;
+- . to create hierarchy
+- to compile and run a java file, be in folder of root of package
+: javac codingnomads/examples/oop/inheritance/CarController.java
+- to run : java codingnoamds/examples/oop/inheritance/CarController
+
+Import packages
+- allows use of elements of that package
+- done at beginning of a file
+: import package1.package2.Classname;
+- still restrictions on members with certain access modifiers
+- import all classes in a package
+: import package1.package2.*;
+- import so you don't have to write rootPackage.subPackage.className inside the method body
