@@ -53,6 +53,7 @@ class Circle extends Shape{
 -default method is optional to be implemented (public default name(){})
 -cannot contain constructor and instance variable
 - class can implement multiple interfaces directly
+*all methods declared in an interface are implicitly public and abstract*
 
 example)
 
